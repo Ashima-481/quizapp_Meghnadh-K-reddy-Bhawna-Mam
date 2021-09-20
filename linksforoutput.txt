@@ -1,0 +1,15 @@
+file:///C:/Users/ashima%20verma/angular-quickstart-project/src/quiz.html/
+
+file:///C:/Users/ashima%20verma/angular-quickstart-project/src/quiz.html/
+file:///C:/Users/ashima%20verma/angular-quickstart-project/src/quiz.html/css/index.css
+
+file:///C:/Users/ashima%20verma/angular-quickstart-project/src/quiz.html/js/
+file:///C:/Users/ashima%20verma/angular-quickstart-project/src/quiz.html/js/data.js
+file:///C:/Users/ashima%20verma/angular-quickstart-project/src/quiz.html/js/index.js
+
+
+file:///C:/Users/ashima%20verma/angular-quickstart-project/src/quiz.html/index.html
+
+
+file:///C:/Calculater.html/calculator.html
+

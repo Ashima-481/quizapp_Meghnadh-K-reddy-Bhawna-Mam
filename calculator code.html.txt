@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <script>
+            function addnum()
+            {
+                var fn=document.getElementById("txtFN").value;
+                var sn=document.getElementById("txtSN").value;
+                var result=parseInt(fn)+parseInt(sn);
+                document.getElementById("txtResult").value=result;
+            }
+            function mulnum()
+            {
+                var fn=document.getElementById("txtFN").value;
+                var sn=document.getElementById("txtSN").value;
+                var result=parseInt(fn)*parseInt(sn);
+                document.getElementById("txtResult").value=result;
+            }
+            function subnum()
+            {
+                var fn=document.getElementById("txtFN").value;
+                var sn=document.getElementById("txtSN").value;
+                var result=parseInt(fn)-parseInt(sn);
+                document.getElementById("txtResult").value=result;
+            }
+            function pownum()
+            {
+                var a=parseInt(document.getElementById("txtFN").value);
+                var b=parseInt(document.getElementById("txtSN").value);
+                
+                result=1;
+
+                for(i=1;i<=b;i++)
+                {
+                    result=result*a;
+                }
+          
+                document.getElementById("txtResult").value=result;
+            }
+        </script>
+    </head>
+    <body>
+        <hr>
+        <h2>Ashima Calculator</h2>
+        <hr>
+       FirstNumber : <input type="text" id="txtFN"><br><br>
+       Second Number : <input type="text" id="txtSN"><br><br>
+       <input type="button" id="btnAdd" onclick="addnum()" value="Add">&nbsp;&nbsp;&nbsp;&nbsp;
+       
+       <input type="button" id="btnMul" onclick="mulnum()" value="Mul">&nbsp;&nbsp;&nbsp;&nbsp;
+
+       <input type="button" id="btnSub" onclick="subnum()" value="Sub">&nbsp;&nbsp;&nbsp;&nbsp;
+
+       <input type="button" id="btnPow" onclick="pownum()" value="Pow">&nbsp;&nbsp;&nbsp;&nbsp;
+       
+       
+       
+       <br><br>
+       Result : <input type="text" id="txtResult">
+    </body>
+</html>

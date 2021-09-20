@@ -1,0 +1,6 @@
+Project Name- Quiz App
+Project submitted by- Ashima Verma
+Trainer-Meghnadh K reddy & Bhawna Mam
+works in- Visual Studio Code
+Works on- html files
+Useful- In JSON Files
